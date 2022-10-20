@@ -1,0 +1,5 @@
+user = mailuser
+password = mailuser
+hosts = 172.23.0.4
+dbname = mailbazis
+query = SELECT destination FROM aliases WHERE source='%s'
